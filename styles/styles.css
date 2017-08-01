@@ -1,0 +1,208 @@
+body{
+	font-family: arial;
+	margin: 0;
+	padding: 0;
+	background: transparent url('../assets/bg.jpg');
+}
+
+a{
+	text-decoration: none;
+}
+
+.menu-toggle{
+	margin: 0 auto;
+	display: block;
+	width: 100px;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	padding: 5px;
+	font-size: 16px;
+	text-align: center;
+	color: #fff;
+	background-color:  rgba(0, 0, 0, .75);
+	text-transform: uppercase;
+}
+
+.title{
+	padding: 0 10px;
+}
+
+.menu{
+position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 0;
+	max-width: 100%;
+	width: 100%;
+
+}
+
+.nav-wrapper-wrapper{
+	background-color: rgba(0, 0, 0, .75);
+	display: none;
+	padding-bottom: 10px;
+
+}
+
+.nav-wrapper{
+	position: relative;
+	height: 92px;
+	overflow: hidden;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	border-top: 1px solid #cccccc;
+	color: #ffffff;
+  	font-size: 16px;
+  	text-transform: uppercase;
+}
+nav {
+	overflow-x: scroll;
+	overflow-y: hidden;
+	-webkit-overflow-scrolling: touch;
+	height: 100px;
+	padding: 0;
+}
+
+ul {
+	text-align: justify;
+	width: 55em;
+	margin: 5px 0 0 0;
+	padding: 0 10px;
+}
+
+
+ul:after {
+	content: '';
+	display: inline-block;
+	width: 100%;
+}
+
+li {
+  	display: inline-block;
+	width: 60px;
+	height: 75px;
+	text-align: center;
+	font-size: 12px;
+}
+
+li i{
+	background-color: #dadada;
+	font-size: 32px;
+	padding: 8px 4px;
+	color: #ffffff;
+	border-radius: 12px;
+	margin-bottom: 5px;
+}
+
+li a{
+	color: #ffffff;
+	text-transform: capitalize;
+}
+
+.fa-book{
+	background-color: #279bc3;
+}
+.fa-camera-retro{
+	background-color: #ffd40a;
+}
+
+.fa-envelope{
+	background-color: #1b926c;
+}
+
+.fa-trophy{
+	background-color: #64ab6b;
+}
+
+.fa-file-text-o{
+	background-color: #755e78;
+}
+
+.fa-rss{
+	background-color: #e58c00;
+}
+
+.fa-laptop{
+	background-color: #4c799c;
+}
+
+.fa-file-o{
+	background-color: #ae62d6;
+}
+
+.fa-star-o{
+	background-color: #be4e4e;
+}
+
+.fa-picture-o{
+	background-color: #407135;
+}
+
+.fa-camera{
+	background-color: #8bc1e1;
+}
+
+.fa-linkedin{
+	background-color: #347991;
+}
+
+.fa-facebook{
+	background-color: #01638f;
+}
+
+.fa-twitter{
+	background-color: #0681b2;
+}
+
+.fa-instagram{
+	background-color: #e7c700;
+}
+
+.callbutton{
+	display: block;
+	margin: 10px auto 0 auto;
+	width: 94%;
+	background-color: #cc0000;
+	padding: 10px 0;
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+	color: #fff;
+	border-radius: 5px;
+	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.75);
+}
+
+.header{
+	width: 100%;
+	background-color: #000;
+	padding: 5px 10px;
+	color: #ffffff;
+	font-size: 16px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.header span{ 
+	color: #cc0000;
+}
+
+.header small{
+	font-size: 12px;
+}
+
+.image{
+	background: transparent url('../assets/colby.png') no-repeat top center;
+	padding-top: 200px;
+	background-size: 200px;
+	color: #ffffff;
+	font-size: 30px;
+	margin: 40px auto;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+}
+.image span{
+	color: #000;
+	font-size: 20px;
+}
